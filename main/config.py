@@ -127,10 +127,10 @@ class BaseOptions(object):
         parser.add_argument("--easy_negative_only", type=int, default=1)
         parser.add_argument("--round_multiple", type=int, default=1)
 
-        parser.add_argument("--train_path", type=str, default="/mnt/evo1/XCP/UniVTG-main/data/animal_kingdom/metadata/animal_kingdom_train.jsonl"
+        parser.add_argument("--train_path", type=str, default="/mnt/evo1/XCP/data/animal_kingdom/metadata/animal_kingdom_train.jsonl"
                                                                
                                                                , nargs='+')
-        parser.add_argument("--eval_path", type=str, default="/mnt/evo1/XCP/UniVTG-main/data/animal_kingdom/metadata/animal_kingdom_test.jsonl"
+        parser.add_argument("--eval_path", type=str, default="/mnt/evo1/XCP/data/animal_kingdom/metadata/animal_kingdom_test.jsonl"
                                                               , help="Evaluating during training, for Dev set. If None, will only do training, ")
         parser.add_argument("--train_path_list",type=str, nargs='+')
         parser.add_argument("--eval_path_list", type=str, nargs='+')
