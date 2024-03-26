@@ -11,7 +11,6 @@ import logging
 from os.path import join, exists
 from nncore.dataset import DATASETS
 from nncore.parallel import DataContainer
-from main.config_hl import TVSUM_SPLITS, YOUTUBE_SPLITS
 from utils.basic_utils import load_jsonl, load_pickle, l2_normalize_np_array
 from utils.tensor_utils import pad_sequences_1d
 from utils.span_utils import span_xx_to_cxw
