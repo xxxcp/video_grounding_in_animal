@@ -30,3 +30,7 @@
    ├── README.md
    └── ···
    ```
+4. Train
+   ```bash
+   python train_vg.py
+   ```
