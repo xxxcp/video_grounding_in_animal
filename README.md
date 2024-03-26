@@ -24,6 +24,8 @@
    │   │   │   └──animal_kingdom_train.jsonl
    │   │   ├── txt_clip
    │   │   ├── vid_clip
+   ├── results
+   │   ├── model_best.ckpt
    ├── main
    ├── model
    ├── utils
