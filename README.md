@@ -16,7 +16,7 @@
    
 3. Organize the data / features in the following structure
    ```bash
-   univtg
+   video_grounding_in_animal_kingdom
    ├── data
    │   ├── animal_kingdown
    │   │   ├── metadata
