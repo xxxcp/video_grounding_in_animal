@@ -94,7 +94,7 @@ class BaseOptions(object):
         parser.add_argument("--eval_init", action="store_true", help="evaluate model before training i.e. `epoch=-1'")
         parser.add_argument("--save_interval", type=int, default=50)
 
-        parser.add_argument("--resume", type=str, default="/results/model_best.ckpt",
+        parser.add_argument("--resume", type=str, default="./results/model_best.ckpt",
                             help="checkpoint path to resume or evaluate, without --resume_all this only load weights")
         parser.add_argument("--resume_dir", type=str, default=None,
                             help="checkpoint path to resume or evaluate, without --resume_all this only load weights")
@@ -127,10 +127,10 @@ class BaseOptions(object):
         parser.add_argument("--easy_negative_only", type=int, default=1)
         parser.add_argument("--round_multiple", type=int, default=1)
 
-        parser.add_argument("--train_path", type=str, default="/data/animal_kingdom/metadata/animal_kingdom_train.jsonl"
+        parser.add_argument("--train_path", type=str, default="./data/animal_kingdom/metadata/animal_kingdom_train.jsonl"
                                                                
                                                                , nargs='+')
-        parser.add_argument("--eval_path", type=str, default="/data/animal_kingdom/metadata/animal_kingdom_test.jsonl"
+        parser.add_argument("--eval_path", type=str, default="./data/animal_kingdom/metadata/animal_kingdom_test.jsonl"
                                                               , help="Evaluating during training, for Dev set. If None, will only do training, ")
         parser.add_argument("--train_path_list",type=str, nargs='+')
         parser.add_argument("--eval_path_list", type=str, nargs='+')
@@ -138,10 +138,10 @@ class BaseOptions(object):
 
         parser.add_argument("--no_norm_vfeat", action="store_true", help="Do not do normalize video feat")
         parser.add_argument("--no_norm_tfeat", action="store_true", help="Do not do normalize text feat")
-        parser.add_argument("--v_feat_dirs", default="/data/animal_kingdom/vid_clip", type=str, nargs="+",
+        parser.add_argument("--v_feat_dirs", default="./data/animal_kingdom/vid_clip", type=str, nargs="+",
                             help="video feature dirs. If more than one, will concat their features. "
                                  "Note that sub ctx features are also accepted here.")
-        parser.add_argument("--t_feat_dir", default="/data/animal_kingdom/txt_clip", type=str, help="text/query feature dir")
+        parser.add_argument("--t_feat_dir", default="./data/animal_kingdom/txt_clip", type=str, help="text/query feature dir")
         parser.add_argument("--v_feat_dim", default=512,type=int, help="video feature dim")
         parser.add_argument("--t_feat_dim", default=512,type=int, help="text/query feature dim")
         parser.add_argument("--ctx_mode", type=str, default="video_tef")
