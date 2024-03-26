@@ -36,3 +36,8 @@
    ```bash
    python train_vg.py
    ```
+5.Visualization
+   ```bash
+   pip install tensorboard
+   tensorboard --logdir results\mr-animal_kingdom\...\tensorboard_log
+   ```
