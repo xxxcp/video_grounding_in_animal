@@ -6,6 +6,7 @@ import json
 import pprint
 import random
 import numpy as np
+import shutil
 from tqdm import tqdm, trange
 from collections import defaultdict
 
@@ -157,7 +158,7 @@ def train(model, criterion, optimizer, lr_scheduler, train_dataset, val_dataset,
 
                 best_file_paths = [e.replace("latest", "best") for e in latest_file_paths]
                 for src, tgt in zip(latest_file_paths, best_file_paths):
-                    os.renames(src, tgt)
+                    shutil.move(src, tgt)
                 logger.info("The checkpoint file has been updated.")
             else:
                 es_cnt += 1
