@@ -3,7 +3,7 @@
 ### Preparation
 1. Download
    ```bash
-   git clone https://github.com/showlab/UniVTG
+   git clone https://github.com/xxxcp/video_grounding_in_animal_kingdom.git
    cd vg
    
    conda create --name vg python=3.8
