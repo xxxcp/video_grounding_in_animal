@@ -10,9 +10,10 @@
    ```
    
 2. Download
- - [2024/3/26]  Please download [dataset annotation and feature](https://drive.google.com/file/d/1tVloZdISLdNk1ckgBu-wxqQD2sRWz2af/view?usp=drive_link). (283.7 MB)
- - [2024/3/26]  Please download [chackpoint](https://drive.google.com/file/d/1GY68psWBJouImzYXNnjJF5JXj5rKJxdo/view?usp=drive_link). (144.7 MB)
- - [2024/3/26]  Model [VIT-B-32](https://drive.google.com/file/d/1nOGv10rk6kHkUecx3e1qw6Mx8bcGxXA1/view?usp=drive_link). (337.6 MB)
+ -   Please download [dataset annotation and feature](https://drive.google.com/file/d/1tVloZdISLdNk1ckgBu-wxqQD2sRWz2af/view?usp=drive_link). (283.7 MB)
+ -   Please download [chackpoint](https://drive.google.com/file/d/1GY68psWBJouImzYXNnjJF5JXj5rKJxdo/view?usp=drive_link). (144.7 MB)
+ -   Model [VIT-B-32](https://drive.google.com/file/d/1nOGv10rk6kHkUecx3e1qw6Mx8bcGxXA1/view?usp=drive_link). (337.6 MB)
+ -   Model [resume]([https://drive.google.com/file/d/1nOGv10rk6kHkUecx3e1qw6Mx8bcGxXA1/view?usp=drive_link](https://drive.google.com/drive/folders/1yLP7_LEONJNwVH9TuFI-ZNduNQFfCsya?usp=drive_link)). 
    
 3. Organize the data / features in the following structure
    ```bash
