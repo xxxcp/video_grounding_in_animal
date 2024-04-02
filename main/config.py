@@ -29,8 +29,8 @@ class BaseOptions(object):
         self.initialized = True
         parser = argparse.ArgumentParser()
         # * Running configs
-        parser.add_argument("--dset_type", type=str, default="mr", choices=["mr", "hl", "vs", "vlp"])    # moment retrieval, highlight detection, and video summarization
-        parser.add_argument("--dset_name", type=str, default="animal_kingdom", choices=["qvhighlights", "charades", "anet", "tvsum", "youtube", "summe", "ego4d", "qfvs", "video2gif", "coin", "hacs", "vlp", "videocc", "tacos"])
+        parser.add_argument("--dset_type", type=str, default="mr")   
+        parser.add_argument("--dset_name", type=str, default="animal_kingdom")
         parser.add_argument("--domain_name", type=str, default=None)
         parser.add_argument("--model_id", type=str, default="univtg") #moment_detr
         parser.add_argument("--exp_id", type=str, default="all", help="id of this run, required at training")
