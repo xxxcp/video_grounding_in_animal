@@ -43,7 +43,7 @@
    tensorboard --logdir results\mr-animal_kingdom\...\tensorboard_log
    ```
 # Acknowledgement
-This code is based on
+This codebase and data is based on
 [UniVTG](https://github.com/showlab/UniVTG.git), 
 [moment_detr](https://github.com/jayleicn/moment_detr.git), 
 [Aniaml Kingdom](https://github.com/sutdcv/Animal-Kingdom.git)
