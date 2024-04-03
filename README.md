@@ -42,5 +42,8 @@
    pip install tensorboard
    tensorboard --logdir results\mr-animal_kingdom\...\tensorboard_log
    ```
-# acknowledge
+# Acknowledgement
+This code is based on
 [UniVTG](https://github.com/showlab/UniVTG.git)
+[moment_detr](https://github.com/jayleicn/moment_detr.git)
+thank the authors for their open-source contributions.
