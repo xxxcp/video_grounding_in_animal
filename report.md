@@ -160,13 +160,12 @@
 ## 参考文献
 '''
 
-@misc{sidc,
-  author       = {{SIDC}},
-  title        = {SILSO Data Files},
-  howpublished = {Royal Observatory of Belgium},
-  year         = {Accessed: 16 June 2024},
-  url          = {https://www.sidc.be/SILSO/datafiles}
-}
-
+    @misc{sidc,
+      author       = {{SIDC}},
+      title        = {SILSO Data Files},
+      howpublished = {Royal Observatory of Belgium},
+      year         = {Accessed: 16 June 2024},
+      url          = {https://www.sidc.be/SILSO/datafiles}
+    }
 '''
 
