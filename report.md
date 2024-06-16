@@ -11,6 +11,7 @@
 ## 程序与说明
 
 '''
+
     # 安装所需的库
     try:
         import numpy as np
@@ -124,6 +125,7 @@
     plt.legend()
     plt.grid(True)
     plt.show() 
+    
 '''
 
 
